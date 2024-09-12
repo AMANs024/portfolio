@@ -1,0 +1,211 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset= "UTF-8">
+    <meta http-equix="X-UA-Comatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title> Personal Portfolio Webstite </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class = "container">
+        <nav>
+            <h1>Aman Sheikh</h1>  
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contacts</a></li> 
+                <i class="fa-solid fa-xmark"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi, I'm <span>Aman</span> from Pune</h1>
+            
+    </div>
+</div>   
+ <!-- ----------about-------------- -->     
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="row">
+            </div>
+            <div class="about-col-1">
+                <h1 class="sub-title">About me</h1>
+                <br>
+                <br>
+                <br>
+                <p>I am Aman Sheikh <br> <br>An engineering student from Pune with
+                     an interest in technology and business models.<br>
+                      My core passion lies in software development, where I get my self into tech and innovation.<br> Combining my technical skills with a keen understanding of business
+                     strategies. </p>
+                <br>
+                <br>
+            
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('interest')">Interest</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>B.ENGINEERING</span><br>-University : SPPU - Zeal College Of Engineering and Research<br>-Years Attended : [2023] -[2026] <br></li> <br>
+                        <li><span>HIGH SCHOOL</span><br>-Institution : SEA <br> -Years Attended : [2021] - [2022]</li> <br>
+                        <li><span>SCHOOL EDUCATION</span><br>-Institution : National Public School <br> -Years Attended : [2016]-[2020]</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>PROGRAMMING</span><br>-Python <br>-HTML<br>-CSS<br>-JS<br></li>
+                        <li><span>WEB DEVELOPMENT</span><br>-Django <br></li> 
+                        <li><span>VIDEO EDITING</span><br>-Premiere pro<br>-Cap cut<br>-Davinci resolve</li>
+                    </ul>
+                </div>    
+                <div class="tab-contents" id="interest">
+                    <ul>
+                        <li><span>SOFTWARE DEVELOPMENT</span><br>Just love to code</li> <br>
+                        <li><span>TECHNOLOGY</span><br>To learn and get dive in TECH  </li> <br>
+                        <li><span>BUSINESS MODEL</span><br>Intrested to understand real world business</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                      
+<!-- ----------resume-------------- --> 
+
+<div id="resume">
+    <div class="container">
+        <h1 class="sub-title">Resume</h1>
+
+
+<section id="resume">
+    <div class="resume-container">
+        <h2>My Resume</h2>
+
+        <div class="resume-section">
+            <h3>Education</h3>
+            <div class="resume-item">
+                <h4>Undergrad in ENTC(electronics and telecommunication)</h4>
+                <p><strong>Pune University</strong> | 2023 - 2026</p>
+                <p>Relevant coursework: Electronics, Algorithms,Mic programming, Software Engineering</p><br>
+
+
+                <h4>High school</h4>
+                <p><strong>SEA (Sir Einstein Academy)</strong> | 2021 - 2022</p>
+                <p>Relevant coursework:SCIENCE</p><br>
+
+                <h4>Schooling</h4>
+                <p><strong>NPS (National Public School)</strong> | 2015 - 2021</p><br>
+                
+
+
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h3>Experience</h3>
+            <div class="resume-item">
+                <h4>Software Developer Intern</h4>
+                <p><strong>Octa Net</strong> | Summer 2024</p>
+                <p>Worked on developing web applications using Python, HTML, CSS, and JavaScript. </p>
+            </div>
+            <div class="resume-item">
+                <h4>Web Developer</h4>
+                <p><strong>Freelance</strong> | 2022 - Present</p>
+                <p>Designed and developed responsive websites for small businesses using HTML, CSS, and JavaScript.</p><br>
+
+                <h4>Graphic Designer</h4>
+                <p><strong>Freelance</strong> | 2022 - Present</p>
+                <p>Designed and developed responsive websites logo designs for small businesses .</p>
+
+
+
+
+        <div class="resume-section">
+            <h3>Skills</h3>
+            <ul>
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>Video Editing</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-------------------Contacts-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact ME</h1><br><br>
+            <p><i class="fa-regular fa-envelope"></i>Email:amanwork03@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>Phone-NO:9172256546</p>
+            <div class="social-icons">
+                <a href="linkedin.com/in/aman-sheikh-b73b35292"><i class="fa-brands fa-linkedin"></i></a>
+            </div>    
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+
+            
+        </div>            
+    </div>    
+</div>    
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxu9nxIBzy1cg_eqH4ctBCexQsR4mlViiq2QKDuK6qCML_M6JnCigHCg3sYzJtWG2FR/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>    
+</html>
